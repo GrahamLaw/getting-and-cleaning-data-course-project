@@ -1,0 +1,52 @@
+
+Data
+Data set displays the average of each variable Mean & STD measurement for each activity and each subject
+
+
+Transformations
+The features dataset was filter for the required measurements. These were the Mean() and Std() measurements. MeanFreq() was dismissed as this is a mean of the frequency of a measurement rather than the mean of the measurement
+
+A subset of the x test and train datasets were then produced by the filtered feature dataset and clip together with the subject and y datasets
+
+The activity labels are then merged to the separate x and y datasets and the results of this combined 
+
+A mean of the measurements is then produced being grouped by subject and activity
+
+
+Variables
+
+Activity label
+WALKING
+WALKING_UPSTAIRS
+WALKING_DOWNSTAIRS
+SITTING
+STANDING
+LAYING
+
+Subject
+An identifier of the subject who carried out the experiment.
+1 to 30
+
+Measurement
+mean() – Mean
+std() – Standard Deviation 
+
+Feature
+tBodyAcc 
+tGravityAcc
+tBodyAccJerk
+tBodyGyro
+tBodyGyroJerk 
+tBodyAccMag 
+tGravityAccMag 
+tBodyAccJerkMag 
+tBodyGyroMag 
+tBodyGyroJerkMag
+fBodyAcc 
+fBodyAccJerk  
+fBodyGyro 
+fBodyAccMag
+fBodyBodyAccJerkMag 
+fBodyBodyGyroMag
+fBodyBodyGyroJerkMag 
+gyroscope
